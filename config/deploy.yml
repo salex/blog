@@ -29,11 +29,15 @@ proxy:
 registry:
   # Alternatives: hub.docker.com / registry.digitalocean.com / ghcr.io / ...
   # Needed for authenticated registries.
-  username: salex1710
+  # username: salex1710
 
   # Always use an access token rather than real password when possible.
   password:
     - KAMAL_REGISTRY_PASSWORD
+
+  username:
+    - KAMAL_REGISTRY_USERNAME
+
 
   # Needed for authenticated registries.
   # username: your-user
